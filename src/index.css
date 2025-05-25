@@ -1,0 +1,37 @@
+:root {
+  /* Primary Colors */
+  --color-primary-blue: #30567a;
+  --color-accent-red: #D82C4B;
+
+  /* Text Colors */
+  --color-text-light: #f8f8f8;
+  --color-text-dark: #333;
+
+  /* Background Colors */
+  --color-background-dark: #222;
+  --color-background-light: #f4f4f4;
+
+  /* Font Families */
+  --font-family-heading: 'Arial', sans-serif; /* You might want to use Google Fonts here */
+  --font-family-body: 'Helvetica Neue', sans-serif; /* Or another clean sans-serif */
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background-light);
+  color: var(--color-text-dark);
+}
+
+/* Basic Reset for elements */
+h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary-blue);
+}

@@ -1,0 +1,49 @@
+.cta-section {
+  background-color: var(--color-primary-blue);
+  color: var(--color-text-light);
+  padding: 80px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cta-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cta-content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: var(--font-family-heading);
+}
+
+.cta-content p {
+  font-size: 1.4rem;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.cta-content .btn-primary {
+  background-color: var(--color-accent-red);
+  color: var(--color-text-light);
+  padding: 18px 40px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-content .btn-primary:hover {
+  background-color: darken(#D82C4B, 10%);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .cta-content h2 {
+    font-size: 2rem;
+  }
+
+  .cta-content p {
+    font-size: 1.1rem;
+  }
+}
